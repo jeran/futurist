@@ -18,13 +18,13 @@ gradlePlugin {
         get("futurist.android").apply {
             id = "com.jeranfox.futurist.android"
             displayName = "Futurist for android"
-            description = "Opt in"
+            description = "Avoid @OptIn annotations by automatically opting in to the latest android experimental apis."
             implementationClass = "Futurist_androidPlugin"
         }
         get("futurist.multiplatform").apply {
             id = "com.jeranfox.futurist.multiplatform"
             displayName = "Futurist for kotlin multiplatform"
-            description = "Opt in"
+            description = "Avoid @OptIn annotations by automatically opting in to the latest kotlin experimental apis."
             implementationClass = "Futurist_multiplatformPlugin"
         }
     }
