@@ -4,7 +4,7 @@ plugins {
     id("com.gradle.plugin-publish") version "0.20.0"
 }
 
-group = "com.jeranfox"
+group = "dev.jeran"
 version = "1.0"
 
 pluginBundle {
@@ -16,13 +16,13 @@ pluginBundle {
 gradlePlugin {
     plugins {
         get("futurist.android").apply {
-            id = "com.jeranfox.futurist.android"
+            id = "dev.jeran.futurist.android"
             displayName = "Futurist for android"
             description = "Avoid @OptIn annotations by automatically opting in to the latest android experimental apis."
             implementationClass = "Futurist_androidPlugin"
         }
         get("futurist.multiplatform").apply {
-            id = "com.jeranfox.futurist.multiplatform"
+            id = "dev.jeran.futurist.multiplatform"
             displayName = "Futurist for kotlin multiplatform"
             description = "Avoid @OptIn annotations by automatically opting in to the latest kotlin experimental apis."
             implementationClass = "Futurist_multiplatformPlugin"

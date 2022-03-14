@@ -13,7 +13,7 @@ Manual opt-in is a thing of the past. Include this plugin to `@OptIn` to everyth
 
 ```kotlin
 plugins {
-    id("com.jeranfox.futurist.android").version("1.0")
+    id("dev.jeran.futurist.android").version("1.0")
 }
 ```
 
@@ -21,7 +21,7 @@ plugins {
 
 ```kotlin
 plugins {
-    id("com.jeranfox.futurist.multiplatform").version("1.0")
+    id("dev.jeran.futurist.multiplatform").version("1.0")
 }
 ```
 
