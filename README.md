@@ -5,7 +5,7 @@ Alpha is a state mind. Stable is a word for farmers.
 
 We are futurists.
 
-Manual opt-in is a thing of the past. Include this plugin to `@OptIn` to everything.
+Include this plugin to `@OptIn` to everything.
 
 ## Usage
 
@@ -13,7 +13,7 @@ Manual opt-in is a thing of the past. Include this plugin to `@OptIn` to everyth
 
 ```kotlin
 plugins {
-    id("dev.jeran.futurist.android").version("1.0")
+    id("dev.jeran.futurist.android").version("1.1.0")
 }
 ```
 
@@ -21,7 +21,7 @@ plugins {
 
 ```kotlin
 plugins {
-    id("dev.jeran.futurist.multiplatform").version("1.0")
+    id("dev.jeran.futurist.multiplatform").version("1.1.0")
 }
 ```
 
