@@ -5,6 +5,7 @@ val annotations = listOf(
     "androidx.compose.foundation.ExperimentalFoundationApi",
     "androidx.compose.material.ExperimentalMaterialApi",
     "androidx.compose.ui.ExperimentalComposeUiApi",
+    "androidx.compose.ui.text.ExperimentalTextApi",
     "androidx.constraintlayout.compose.ExperimentalMotionApi",
     "coil.annotation.ExperimentalCoilApi",
     "com.apollographql.apollo.api.ApolloExperimental",
