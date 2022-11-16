@@ -5,7 +5,7 @@ plugins {
 }
 
 group = "dev.jeran"
-version = "1.3.0"
+version = "1.4.0"
 
 pluginBundle {
     website = "https://github.com/jeran/futurist"
