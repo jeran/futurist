@@ -12,6 +12,7 @@ val annotations = listOf(
     "com.google.accompanist.pager.ExperimentalPagerApi",
     "com.russhwolf.settings.ExperimentalSettingsApi",
     "kotlin.ExperimentalStdlibApi",
+    "kotlin.js.ExperimentalJsExport",
     "kotlin.time.ExperimentalTime",
     "kotlinx.coroutines.ExperimentalCoroutinesApi",
     "kotlinx.coroutines.FlowPreview",
