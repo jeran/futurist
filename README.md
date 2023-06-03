@@ -13,7 +13,7 @@ Include this plugin to `@OptIn` to everything.
 
 ```kotlin
 plugins {
-    id("dev.jeran.futurist.android").version("1.5.0")
+    id("dev.jeran.futurist.android").version("1.6.0")
 }
 ```
 
@@ -21,7 +21,7 @@ plugins {
 
 ```kotlin
 plugins {
-    id("dev.jeran.futurist.multiplatform").version("1.5.0")
+    id("dev.jeran.futurist.multiplatform").version("1.6.0")
 }
 ```
 
