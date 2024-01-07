@@ -1,10 +1,4 @@
 # Futurist
-Experimental? Mental is putting it lightly.
-
-Alpha is a state mind. Stable is a word for farmers.
-
-We are futurists.
-
 Include this plugin to `@OptIn` to everything.
 
 ## Usage
@@ -25,8 +19,12 @@ plugins {
 }
 ```
 
+## Warning
+
+Unfortunately this will produce a warning in your build output for every unrecognized annotation.
+
 ## Contributing
 
-This will only work well if we opt in to everything. Contributions are welcome!
-
 See [Annotations.kt](https://github.com/jeran/futurist/blob/main/src/main/kotlin/futurist/Annotations.kt) for a list of currently supported annotations.
+
+If you need an annotation that isn't on this list, feel free to open a pull request.
